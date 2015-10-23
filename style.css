@@ -1,0 +1,2537 @@
+/**
+ * ESNY style sheet
+ *
+ * Used fonts.com fonts:
+ *
+ * - Garamond W01
+ * - HelveticaNeueW01-77BdCn 692722
+ * - HelveticaNeueW01-75Bold
+ * - HelveticaNeueW01-55Roma
+ *
+ * @package  Esny
+ * @author markus.hall@prek.se
+ */
+#wrapper {
+    width:  920px;
+    margin: 0 auto;
+}
+
+.inner-wrapper {
+    padding-top: 100px;
+    padding-left:15px;
+    padding-right:15px;
+}
+
+body {
+    font-family: 'HelveticaNeueW01-55Roma';
+    background: #FFFFFF;
+    background-position: center center!important;
+    background-attachment: fixed;
+    background-repeat: no-repeat;background-size: cover;
+
+}
+
+
+.menu{
+    background: #000000;
+    width: 878px;
+    min-height: 80px;
+    position: fixed;
+    z-index: 1000;
+    padding-left:15px;
+    padding-right:15px;
+}
+/**
+ * Header
+ */
+header {
+    /* background: #fafad2; */
+}
+
+header#top {
+    position:      relative;
+    border-bottom: 1px solid #c1c1c1;
+    height:        69px;
+    padding-top:   15px;
+}
+
+
+
+header#top .logo span {
+    display: none;
+}
+
+span.readmore-description {
+    display: none;
+}
+
+div.search-box .share {
+
+}
+
+div.district-description {
+    width: 30%;
+}
+
+div.search-box .share a.locale {
+    text-decoration:    none;
+    color:              #ABA487;
+    font-family:        'HelveticaNeueW01-77BdCn 692722',sans-serif;
+    text-transform:     uppercase;
+    font-size:          0.750em;
+    position:           relative;
+    top:                -5px;
+    margin-left:        10px;
+    margin-right:       20px;
+}
+
+div.search-box .share a.locale:hover {
+    color: #858585;
+}
+
+a.share-button {
+    height:     20px;
+    width:      20px;
+    display:    inline-block;
+
+}
+
+a.share-button.facebook {
+    background-position: 0 -101px;
+}
+
+a.share-button.facebook:hover {
+    background-position: -22px -101px;
+}
+
+a.share-button.twitter {
+    background-position: 0 -236px;
+}
+
+a.share-button.twitter:hover {
+    background-position: -22px -236px;
+}
+
+a.share-button.mail {
+    background-position: 0 -160px;
+    margin-right: 10px;
+}
+
+a.share-button.mail:hover {
+    background-position: -22px -160px;
+}
+
+a.share-button.instagram {
+    background-position: -53px -160px;
+}
+
+a.share-button.instagram:hover {
+    background-position: -75px -160px;
+}
+
+.navigation {
+    margin: 6px 0 10px 0;
+}
+
+nav#top-menu {
+    padding-bottom: 6px;
+    width: 100%;
+}
+
+nav#top-menu,
+nav.sub-nav {
+    position:       relative;
+    border-bottom: 1px solid #C1C1C1;
+
+}
+
+nav.sub-nav {
+    border:         none;
+    margin-top:     6px;
+}
+
+nav.sub-nav ul.left {
+    float: left;
+}
+
+nav.sub-nav ul.right {
+    float: right;
+}
+
+nav#top-menu .search-box {
+    float:       right;
+    width:      250px;
+    text-align:  right;
+    margin-top:  -1px;
+}
+
+nav#top-menu .search-box button#search-box {
+    background:         none;
+    border:             none;
+    color:              #ABA487;
+    font-family:        'HelveticaNeueW01-77BdCn 692722';
+    text-transform:     uppercase;
+    font-size:          0.750em;
+    position: relative;
+    top: -5px;
+}
+
+nav#top-menu .search-box button#search-box:hover {
+    color: #858585;
+}
+
+nav#top-menu .search-box #search-box:hover {
+    cursor: pointer;
+}
+
+nav#top-menu .search-box div.search-box-form {
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 2px 2px 2px 2px;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.3);
+    display: none;
+    padding: 4px 0 10px;
+    position: absolute;
+    right: 10px;
+    text-align: left;
+    top: 30px;
+    width: 300px;
+    z-index: 999;
+}
+
+
+nav#top-menu div.search-form {
+    margin: 0 auto;
+    width:  280px;
+}
+
+nav#top-menu div.search-form a.close {
+    position:           absolute;
+    right:              17px;
+    top:                5px;
+    text-decoration:    none;
+    color:              #333;
+    font-family:        "HelveticaNeueW01-77BdCn 692722";
+}
+
+nav#top-menu div.search-form h3 {
+    text-transform: uppercase;
+    color:          #3e3e3f;
+    font-size:      0.9em;
+    margin-bottom:  10px;
+    margin-top:     4px;
+}
+
+nav#top-menu div.search-form fieldset {
+    width: 100%;
+}
+
+nav#top-menu div.search-form .hidden {
+    display: none;
+}
+
+nav#top-menu div.search-form fieldset label {
+    display: block;
+    font-family: 'HelveticaNeueW01-77BdCn 692722';
+    font-size: 0.7em;
+    margin-bottom: 4px;
+    text-transform: uppercase;
+}
+
+nav#top-menu div.search-form fieldset label.first-label {
+    display:    inline-block;
+    width:      46%;
+}
+
+nav#top-menu div.search-form fieldset label.second-label{
+    display: inline-block;
+    margin-left: 11px;
+    width: 40%;
+}
+
+nav#top-menu div.search-form fieldset label .float-left {
+    display: inline-block;
+    float: left;
+}
+
+nav#top-menu div.search-box input.submit-button {
+    border:         0;
+    background:     none;
+    float:          right;
+    font-family:    "HelveticaNeueW01-77BdCn 692722";
+    text-transform: uppercase;
+    margin-top: 10px;
+}
+
+nav#top-menu div.search-box input.submit-button:hover {
+    cursor: pointer;
+}
+
+
+nav#top-menu div.search-form fieldset select {
+    width:          49%;
+    font-size:      0.8em;
+    padding:        5px;
+    color:          #555;
+    margin-bottom: 10px;
+}
+
+nav#top-menu div.search-form fieldset select.last {
+}
+
+nav#top-menu div.search-form fieldset select.full-width {
+    width: 100%;
+}
+
+nav#top-menu li,
+nav.sub-nav li {
+    display:       inline;
+    padding-right: 14px;
+}
+
+nav#top-menu li:last-child,
+nav.sub-nav li:last-child {
+    margin-right: 0;
+}
+
+nav.sub-nav ul.right li {
+    padding-right: 5px;
+}
+
+nav#top-menu li a:hover,
+nav.sub-nav li a:hover {
+    color: #858585;
+}
+
+nav#top-menu li a,
+nav.sub-nav li a {
+    font-family:     'HelveticaNeueW01-77BdCn 692722';
+    text-transform:  uppercase;
+    color:           #ABA487;
+    font-size:       0.750em; /* 11 px */
+    text-decoration: none;
+
+
+}
+
+nav#top-menu ul.sub-menu-list {
+    left: 0;
+    top: 29px;
+    display: none;
+    position: absolute;
+}
+
+nav#top-menu.subnav-open ul.main-menu-list.object-grand ul.sub-menu-list.object-grand,
+nav#top-menu.subnav-open ul.main-menu-list.object-light ul.sub-menu-list.object-light,
+nav#top-menu.subnav-open ul.main-menu-list.new-development ul.sub-menu-list.new-development {
+    display: block;
+}
+
+nav#top-menu span.navbar-arrow,
+nav#top-menu .responsive-menu-button,
+nav#top-menu ul.sub-menu-list li.sub-menu-start {
+    display: none;
+}
+
+nav.sub-nav li a,
+div#main-menu-list-wrapper ul.sub-menu-list li a {
+    font-size: 0.70em;
+}
+
+nav#top-menu ul.sub-menu-list li a.light-green {
+    color: #5e710c;
+}
+
+
+nav#top-menu.subnav-open ul li a,
+nav#top-menu.subnav-open a.locale,
+nav#top-menu.subnav-open .search-box button#search-box {
+    color: #ABA487;
+}
+
+nav#top-menu.subnav-open ul li a:hover,
+nav#top-menu.subnav-open a.locale:hover,
+nav#top-menu.subnav-open .search-box button#search-box:hover {
+    color: #858585;
+}
+
+a.active {
+    color: #858585!important;
+}
+
+/**
+ * Slideshow
+ */
+section#slideshow {
+    background:     none;
+    padding-bottom: 0;
+}
+
+/**
+ * Main content
+ */
+section.index {
+    /*background:     #d3d3d3 url(/gfx/index/section_bg.jpg) bottom repeat-x;*/
+    /*    padding-bottom: 33px;*/
+    margin-bottom: 22px;
+}
+
+section.index article {
+
+}
+
+section.index article.left img {
+
+}
+
+section.index article.right img {
+    float:        left;
+    margin-right: 25px;
+}
+
+section article p {
+    font-size:   1em;
+    margin:      0.875em 0;
+    line-height: 1.675em;
+}
+
+/* section.people */
+section.people {
+    margin-top:     30px;
+    margin-bottom:  25px;
+    width:          100%;
+}
+
+section.people article {
+    background: #ececec;
+    font-family: 'HelveticaNeueW01-55Roma';
+}
+
+section.people .picture {
+    width:      390px;
+    height:     307px;
+}
+
+section.people  .picture img {
+    width:      390px;
+    height:     307px;
+}
+
+section.people  .info {
+    width:      590px;
+}
+
+section.people .info header {
+    background: #dbdbdb;
+    padding:    13px 20px;
+    margin:     0;
+    overflow:   hidden;
+}
+
+section.people .info header h1 {
+    float:          left;
+    width:          200px;
+    font-size:      1.5em;
+    line-height:    1.2em;
+    text-transform: uppercase;
+    font-weight:    400;
+    letter-spacing: 3px;
+    font-family:    'HelveticaNeueW01-55Roma';
+}
+
+
+section.people .info header .people-info,
+.object-info {
+    float: left;
+}
+
+section.people .people-info p {
+    margin:     0;
+    padding:    0;
+    font-size:  0.75em;
+    line-height: 1.2em;
+}
+
+.people-info span.title {
+    font-family:        'HelveticaNeueW01-75Bold';
+    text-transform:     uppercase;
+    border-left:        1px solid #000;
+    padding-left:       6px;
+}
+
+.people-info span.label {
+    text-transform:     uppercase;
+    border-left:        1px solid transparent;
+    padding-left:       6px;
+    padding-right:      4px;
+}
+
+.object-info span.title {
+    font-family:        'HelveticaNeueW01-75Bold'!important;
+    text-transform:     uppercase;
+    padding-right:      6px;
+    font-size:          0.75em !important;
+    float:              left;
+    line-height:        1.2em;
+}
+
+section.people .info .desc {
+    padding:    13px 20px;
+    height:     100%;
+}
+
+section.people .info .desc p {
+    font-size: 0.775em;
+    line-height: 1.2em;
+}
+
+/* end section.people */
+
+/* section.objects */
+section.objects {
+
+}
+
+section.objects article {
+    margin-bottom:  20px;
+    height:         325px; /* Should we have this? Incase picures are not loaded so we dont break the layout. */
+}
+
+section.objects article:last-child {
+    margin-bottom: 0;
+}
+
+section.objects .image-holder {
+    position: relative;
+}
+
+
+
+section.objects .image-holder img {
+    height: 325px;
+    width:  878px;
+}
+
+section.objects article aside.object-info {
+    position:       absolute;
+    z-index:        100;
+    padding:        0 20px;
+    background:     url('./images/transparent-black70.png');
+    top:            0;
+    width:          160px;
+    height:         325px;
+}
+
+aside.object-info div.read-more-position {
+    position: absolute;
+    bottom: 25px;
+    width: 80%;
+}
+
+/* Special positioning for newdevelopmentprojects */
+section.new-development aside.object-info div.read-more-position {
+}
+
+
+span.fake-border-left {
+    border-bottom: 1px dotted #6E6E70;
+    display: inline-block;
+    float: left;
+    height: 1px;
+    position: relative;
+    top: 30px;
+    width: 80px;
+}
+
+span.fake-border-left.less-width {
+    width: 24px;
+}
+
+span.fake-border-right {
+    border-bottom: 1px dotted #6E6E70;
+    display: inline-block;
+    float: right;
+    height: 1px;
+    position: relative;
+    top: 3px;
+    width: 13px;
+}
+
+span.fake-border-right.sold {
+    top: 30px;
+}
+
+section.new-development aside.object-info div.read-more-position a {
+    left: 0;
+    padding-right: 15px;
+    position: relative;
+    top: 16px;
+}
+
+section.new-development.project aside.object-info div.read-more-position a {
+    top: auto;
+}
+
+section.new-development aside.object-info p.salestext {
+    font-family: 'HelveticaNeueW01-55Roma';
+    margin: 4px 0;
+}
+section.objects article aside.left {
+    left: 30px;
+}
+
+section.objects article aside.right {
+    right: 70px;
+}
+
+section.objects article aside.object-info.left h2 {
+    margin-left: 0px;
+}
+
+section.objects article aside h2:first-child {
+    margin-top: 70px;
+}
+
+section.objects article aside.object-info h2 {
+    font-family:    "Helveticaneuew01-77bdcn 692722";
+    color:          #fff;
+    text-transform: uppercase;
+    font-size:      1.20em;
+    line-height:    1.25em;
+}
+
+section.objects article aside.object-info h2.greenish {
+    color:          #b5af95;
+    margin-bottom:  15px;
+    font-size:      1.20em;
+    line-height:    1.25em;
+    overflow:       hidden;
+    white-space:    normal; /* nowrap */
+}
+
+section.objects article aside.object-info h2 a {
+    color:          #fff;
+    font-size:      1em;
+    line-height:    1.25em;
+}
+
+section.objects article aside.object-info p {
+    margin:         0;
+    padding:        0;
+    font-size:      0.8125em;
+    line-height:    1.675em;
+    width:          160px;
+    color:          #fff;
+    font-family:    'HelveticaNeueW01-55Roma';
+}
+
+aside.object-info p:not(.salestext) {
+    text-overflow: ellipsis;
+    overflow:      hidden;
+    white-space:   nowrap;
+}
+
+/* off market overrides */
+section.objects article.off-market aside.object-info {
+    overflow:      hidden;
+}
+
+section.objects article.off-market aside.object-info p {
+    overflow:      auto;
+    white-space:   normal;
+    margin-bottom: 1em;
+}
+
+section.objects article.off-market aside.object-info h2:first-child {
+    margin-top: 30px;
+}
+
+/* end off market overrides */
+
+section.objects article aside span.border-white.first {
+    margin-top:     35px;
+}
+
+/* end section.objects*/
+
+/* section.object-description */
+section.object-description {
+    overflow:       hidden;
+    font-family:    'HelveticaNeueW01-55Roma'!important;
+}
+
+section.object-description article section.image-holder {
+    width:  878px;
+    height: 500px;
+}
+
+section.object-description article section.image-holder img {
+    width:  878px;
+    height: 578px;
+    overflow: hidden;
+}
+
+section.object-description article header {
+    width: 100%;
+    margin: 10px 0 10px 0;
+}
+
+section.object-description article header h1 {
+    font-size:      2.8em;
+    text-transform: uppercase;
+    width:          50%;
+    font-family:    "HelveticaNeueW01-77BdCn 692722";
+
+    /* To use ellipsis, or not is the big question?
+    overflow:       hidden;
+    text-overflow:  ellipsis;
+    white-space:    nowrap;*/
+}
+
+section.object-description article header div.showings {
+    float:      left;
+    position:   relative;
+    width:      50%;
+    font-family: "HelveticaNeueW01-77BdCn 692722";
+    margin-top: 3px;
+}
+
+section.object-description article header div.no-showing-default-text {
+    font-family: "HelveticaNeueW01-77BdCn 692722";
+    font-size: 0.875em;
+    margin-left: 10px;
+    width: 80%;
+}
+
+section.object-description article header div.no-showing-default-text p {
+    font-family: "HelveticaNeueW01-77BdCn 692722";
+    color:      #b5af95;
+    margin : 0;
+    line-height: normal;
+    text-transform: uppercase;
+    margin-top: -1px;
+}
+
+section.object-description article header div.showings a.all-images-link {
+    position:   absolute;
+    right:      0;
+    color:      #b5af95;
+    margin-top: 1px;
+    font-family: "HelveticaNeueW01-77BdCn 692722";
+}
+
+section.object-description article h3 a {
+    font-size:  1em;
+    color:      #57585A;
+}
+
+section.object-description article header div.showings table.showings-table {
+    font-family: "HelveticaNeueW01-77BdCn 692722";
+    font-size: 0.875em;
+    margin-left: 10px;
+    width: 80%;
+}
+
+section.object-description article table.showings-table tr td {
+    color: #b5af95;
+    text-transform: uppercase;
+}
+
+section.object-description table.showings-table tr td:first-child {
+    width: 75px;
+}
+
+
+section.object-description article table.showings-table tr td ul {
+    list-style: none;
+    margin: 0;
+}
+
+section.object-description table.showings-table tr td ul li {
+    line-height: 1.2em;
+}
+
+
+section.object-description span.currency {
+
+}
+
+section.description-text {
+    -moz-column-count:      2;
+    -webkit-column-count:   2;
+    column-count:           2;
+    -moz-column-gap:        25px;
+    -webkit-column-gap:     25px;
+    column-gap:             25px;
+    padding-bottom:         10px;
+    text-align:             left;
+}
+
+div.holder {
+    width: 100%;
+}
+div.holder h3 {
+
+}
+
+section.description-text h3 {
+    color: #57585A;
+}
+
+section.description-text div.display-none h3 {
+    margin-top:     10px;
+    line-height:    1.5em;
+    display:        inline-block;
+}
+
+section.description-text p:first-child {
+    margin-top: 0;
+}
+
+section.description-text div.display-none h3 + p {
+    margin-top: 0;
+}
+
+section.description-text a {
+    margin-bottom: 10px;
+    display: inline-block;
+}
+
+div.column {
+    padding: 8px 0;
+    float: left;
+}
+
+div.column h3 {
+    color:     #57585a;
+    font-size: 0.8em;
+}
+
+div.column div.content {
+    width: 100%;
+    margin-top: 10px;
+}
+
+div.column div.content p {
+    color: #666;
+    font-size: 0.8125em;
+    line-height: 1.3em;
+    margin: 0 0 0.5em 0;
+}
+
+.page-start-text,
+section.description-text p {
+    font-family:            'HelveticaNeueW01-55Roma';
+    font-size:              0.8125em;
+    line-height:            1.675em;
+    color:                  #666;
+}
+
+.page-start-text p {
+    margin-bottom: 1em;
+}
+
+section.object-description div.district-description p.district-text {
+    font-family:            'HelveticaNeueW01-55Roma';
+    font-size:              0.8125em;
+    line-height:            1.675em;
+    color:                  #666;
+}
+
+
+div.column div.content ul.list-documents {
+    list-style: none;
+    margin-left: 2px;
+}
+
+div.column div.content ul.list-documents li {
+    line-height: 1.3em;
+}
+
+div.column div.content ul.list-documents li a {
+    color: #666;
+    text-transform: none;
+    font-family: 'HelveticaNeueW01-55Roma';
+    font-size: 0.75em;
+}
+div.column div.content ul.list-documents li img {
+    width: 16px;
+    position: relative;
+    top: 2px;
+    margin-right: 4px;
+}
+
+a.push-down {
+    bottom: 0;
+    clear: left;
+    position: absolute;
+    right: 0;
+}
+
+div.column div.content .share-icons {
+    display: none;
+    margin: 10px 10px 0;
+}
+
+div.column div.content .share-icons a.share-button {
+    display: inline-block;
+}
+
+
+/* Realtor. */
+div.column div.content div.realtor {
+    width: 219px;
+    float: left;
+}
+
+div.column div.content div.realtor h3 {
+    margin:    6px 0;
+    color: #929395;
+    font-size: 1em;
+}
+
+div.column div.content div.realtor h3.italic {
+    font-weight: normal;
+    font-family: 'HelveticaNeueW01-55Roma';
+    font-style: italic;
+    font-size: 0.8125em;
+    text-transform: none;
+    line-height: 1.15em;
+    margin: 10px 0;
+}
+
+div.realtor a {
+    width: 200px;
+    height: 140px;
+    position: relative;
+    color: #929395;
+    text-transform: none;
+}
+
+div.person-title,
+div.facts-title,
+div.documents-title {
+    display: none;
+}
+
+section.object-description div.realtor img {
+    width: 200px;
+}
+
+div.column div.content div.realtor p {
+    color: #929395;
+    font-size: 0.8125em;
+    line-height: 1.4em;
+    margin: 0;
+    width: 200px;
+    font-weight: bold;
+}
+
+
+
+span.off-market-text,
+span.reserved-text {
+    width: 100px!important;
+}
+
+span.sold-text {
+    color: #ce3c3c !important;
+}
+
+section.new-development span.sold-text,
+section.new-development span.reserved-text {
+    color: #6E6E70;
+    left: 0;
+    padding-right: 0;
+    position: relative;
+    text-align: center;
+    top: 17px;
+    width: 54px;
+}
+
+section.new-development.project span.reserved-text,
+section.new-development.project span.sold-text{
+    top: 0;
+    text-align: left;
+}
+
+a.currency-converter {
+    color:          #57585A;
+    text-transform: none;
+    font-family: 'HelveticaNeueW01-55Roma';
+    font-size: 1em;
+}
+
+div.currency-converter-holder {
+    margin:     10px 10px 0;
+    display:    none;
+    color:      #57585A;
+}
+
+div.currency-converter-holder ul {
+    margin-left:    10px;
+    list-style:     none;
+    font-family:    'HelveticaNeueW01-55Roma';
+    font-size:      0.75em;
+    margin-bottom:  10px;
+}
+
+div.currency-converter-holder ul li {
+    line-height:    1.675em;
+}
+
+/* Object-image */
+div.column div.content div.object-image {
+    width: 200px;
+    height: 140px;
+    float: left;
+    margin-right: 19px;
+    margin-bottom: 19px;
+}
+
+
+
+div.column div.content div.object-image.no-margin-right {
+    margin-right: 0;
+}
+
+div.column div.content div.object-image a {
+    text-decoration: none;
+    display:         block;
+    width:           100%;
+    height:          100%;
+}
+div.column div.content div.object-image a img,
+div.column div.content div.object-image iframe {
+    width:  100%;
+    height: 100%;
+}
+
+div.column div.content a.all-images-link {
+    clear: left;
+    bottom: 0;
+    position: absolute;
+    right: 0;
+}
+
+div.column div.content div.object-image.placeholder {
+    background: #ccc;
+}
+
+div.column div.content div#map {
+    width:        418px;
+    height:       245px;
+    margin-right: 19px;
+}
+
+div.column div.content div#map + p {
+    margin: 15px 0;
+    width: 200px;
+    font-family: 'HelveticaNeueW01-55Roma';
+    font-size: 0.85em;
+    line-height: 1.2em;
+
+    /**
+     * I want to use ellipsis-lastline to add '...' on multiline-paragraphs
+     * but currently this is only supported by Opera with the -o prefix.
+     * text-overflow: ellipsis only works on one line paragraphs.
+     *
+     * Any other non-jquery solution should work.
+     */
+}
+
+/* Tell-a-friend & similar-object */
+section#tell-a-friend,
+section#similar-object,
+section#freevaluation {
+    display: none;
+    font-size: 70%;
+}
+
+section#tell-a-friend p.message {
+    display: none;
+}
+
+section#tell-a-friend label,
+section#similar-object label,
+section#freevaluation label {
+    display:        block;
+    margin-bottom:  4px;
+}
+
+
+section#tell-a-friend dt#objectId-label {
+    display: none;
+}
+
+section#tell-a-friend p.message,
+section#similar-object p.message,
+section#freevaluation p.message {
+    margin-bottom: 10px;
+    width: 90%!important;
+}
+
+section#tell-a-friend input,
+section#similar-object input,
+section#freevaluation input {
+    margin-bottom: 10px;
+    width: 90%;
+}
+
+section#tell-a-friend input[type="submit"],
+section#similar-object input[type="submit"],
+section#freevaluation input[type="submit"] {
+    width: auto;
+}
+
+section#tell-a-friend .invalid,
+section#similar-object .invalid,
+section#freevaluation .invalid {
+    color: red;
+    margin-bottom: 10px;
+}
+section#similar-object textarea,
+section#freevaluation textarea {
+    width: 90%;
+    height: 150px;
+    margin-bottom: 10px;
+}
+
+div.pusher {
+    margin-bottom: 15px;
+}
+
+/* Galleria */
+.galleria-image-nav-right,
+.galleria-image-nav-left {
+    height: 95%;
+}
+
+
+
+.video-overlay {
+}
+
+/* end galleria */
+
+div.column div.links a {
+    display: block;
+    margin-bottom: 6px;
+    position: relative;
+}
+
+
+a.go-back {
+    color:              #B5AF95;
+    display:            inline-block;
+    font-family:        'HelveticaNeueW01-77BdCn 692722';
+    font-size:          0.875em;
+    text-decoration:    none;
+    text-transform:     uppercase;
+    float:               right;
+    margin-bottom:      15px;
+    margin-top:         10px;
+}
+
+.ui-dialog {
+    box-shadow: 3px 3px 20px rgba(0, 0, 0, 0.3);
+}
+
+.ui-dialog-title {
+    color:           #B5AF95;
+    text-transform : uppercase;
+    font-family:     'HelveticaNeueW01-77BdCn 692722';
+    font-weight:     normal;
+}
+
+/* end section.object-description */
+
+/**
+ * New development
+ */
+
+section.new-development-objects {
+}
+
+section#slides {
+    margin-bottom: 15px;
+}
+
+#inquiry,
+.contact-form-holder {
+    display: none;
+    font-size: 70%;
+}
+
+#inquiry textarea,
+.contact-form-holder textarea {
+    width: 90%;
+    height: 150px;
+}
+
+#inquiry select {
+    margin-bottom: 10px;
+}
+/* Tell-a-friend */
+
+#inquiry label,
+.contact-form-holder label {
+    display:        block;
+    margin-bottom:  4px;
+    font-size: 13px;
+}
+
+#inquiry p.message,
+.contact-form-holder p.message {
+    margin-bottom: 10px;
+    width: 90%;
+}
+
+#inquiry input,
+.contact-form-holder input {
+    margin-bottom: 10px;
+    width: 90%;
+}
+
+#inquiry input[type="submit"],
+.contact-form-holder input[type="submit"] {
+    width: auto;
+}
+
+#inquiry .invalid,
+.contact-form-holder .invalid {
+    color: red;
+    margin-bottom: 10px;
+}
+
+#captcha-element img {
+    margin-bottom: 10px;
+}
+
+section.new-development-objects article header h1,
+section.info article header h1 {
+    font-family: 'HelveticaNeueW01-77BdCn 692722';
+    font-size: 2.6em;
+    font-weight: bold;
+    text-transform: uppercase;
+    width: 50%;
+    font-stretch: condensed;
+    /* To use ellipsis, or not is the big question?
+    overflow:       hidden;
+    text-overflow:  ellipsis;
+    white-space:    nowrap;*/
+}
+
+section.info section#slides img {
+    width: 878px;
+    height: 460px;
+    max-width: 878px;
+}
+
+section.new-development-objects header aside.addressholder {
+    width: 49%;
+    text-align: right;
+}
+
+/* new development object */
+section.new-development {
+}
+
+section.new-development header.container h1 {
+    width: 70%;
+}
+
+section.new-development header.container div.showings {
+    width: 20%;
+    float: right;
+}
+
+section.new-development header.container div.showings.showings-mobile,
+section.object-description header.container div.showings.showings-mobile {
+    display: none;
+}
+
+section.new-development div.container p.contact-link {
+    text-transform: uppercase;
+    font-size:       14px;
+    font-family: "HelveticaNeueW01-77BdCn 692722";
+}
+
+section.new-development p.contact-link a {
+    font-weight: normal;
+}
+
+article.new-development {
+    margin-top: 20px;
+}
+
+article.new-development header,
+article.about-esny header       {
+    margin-bottom: 10px;
+}
+/* end new development object */
+
+#slides {
+    width:  878px;
+    height: 460px;
+}
+
+section#slides .galleria-info,
+section#slides .galleria-counter {
+    display: none!important;
+}
+
+section#slides .galleria-stage {
+    height: 460px;
+}
+
+
+section#slides .galleria-image-nav-left,
+section#slides .galleria-image-nav-right {
+    display: none;
+}
+
+
+
+section.new-development article aside.object-info h2 {
+    color: #666;
+}
+
+section.new-development article aside.object-info p {
+    color: #666;
+}
+
+section.new-development article aside.object-info span.border-white {
+    border-top: 1px dotted #6e6e70;
+}
+
+section.new-development article a.more {
+    color:  #6e6e70;
+    background-position: right -207px;
+}
+
+section.new-development article aside.object-info h2.greenish {
+    margin-bottom: 10px;
+}
+
+#inquiry-form {
+}
+/* end new development. */
+
+/* Partners */
+section.partners {
+
+}
+
+section.partners article.gray-background {
+    background: #ecece8;
+    padding:    0 15px;
+}
+
+
+section.partners div.column {
+
+}
+
+section.partners div.clear {
+    margin-bottom: 15px;
+}
+
+section.partners div.column.width-30 {
+    width: 29%;
+}
+
+section.partners div.mobile-link {
+    display: none;
+}
+
+
+section.news     article div.column p,
+section.wanted   article div.column p,
+section.partners article div.column p {
+    margin: 10px;
+}
+
+section.partners article div.column span.dotted-border {
+    margin-top: 10px;
+}
+
+section.partners article div.column div.content p a {
+    color:          #5E710C;
+    font-family:    'HelveticaNeueW01-55Roma';
+    font-size:      1em;
+    text-transform: none;
+}
+
+section.partners article div.column span a.read-more {
+    text-transform: lowercase;
+    background: #ecece8;
+    font-family: 'HelveticaNeueW01-55Roma';
+    font-weight: bold;
+}
+/* end partners */
+
+/**
+ * Object-images
+ */
+
+section.object-images {
+    width: 100%;
+}
+
+section.object-images div.object-image {
+    margin-bottom: 15px;
+}
+
+section.object-images div.object-image img {
+    width: 878px;
+    height: 460px;
+}
+
+section.object-images div.object-image img.floorplan {
+    height: auto;
+}
+
+section.object-images div.object-image:last-child {
+    margin-bottom: 0;
+}
+
+section.object-images div.object-image:hover {
+    cursor: pointer;
+}
+
+/**
+ * Team
+ */
+section.team {
+}
+
+section.team article.group {
+    width: 100%;
+}
+
+.team-container .group:first-of-type h1 {
+    margin-top: 15px;
+    margin-bottom: 4px;
+}
+
+.team-container div.column {
+    padding-top: 0;
+}
+
+section.team article.group h1 {
+    color: #b5af95;
+    text-transform: uppercase;
+    font-family: 'HelveticaNeueW01-77BdCn 692722';
+    font-size: 2.6em;
+    margin: 30px 0 5px 0;
+    font-weight: bold;
+    font-stretch: condensed;
+}
+
+
+section.team article.group div.column div.realtor p {
+    font-family: 'HelveticaNeueW01-55Roma';
+}
+
+section.team article.group div.realtor a.fake-image-holder img {
+    width: 200px;
+    height: 245px;
+    display: block;
+    background: #eee;
+}
+
+
+article.team-container div.realtor a {
+    width: 200px;
+    height: 245px;
+    position: relative;
+    color: #929395;
+    overflow: hidden;
+    font-size: 1em;
+}
+
+article.team-container div.realtor div.person-image-holder {
+    width: 200px;
+    height: 245px;
+    position: relative;
+    color: #929395;
+    overflow: hidden;
+}
+
+article.team-container div.realtor img {
+}
+
+article.team-container div.realtor h3.italic {
+    text-transform: none;
+    height: 2.3em;
+}
+
+article.team-container div.column {
+    width: 200px;
+    margin-right: 26px;
+}
+
+article.team-container div.column.no-margin-right  {
+    margin-right: 0;
+}
+/* End team.*/
+
+
+/* Person */
+section.person {
+    min-height:     370px;
+    background:     #eee no-repeat;
+    margin-bottom:  30px;
+    margin-top:     20px;
+    position:       relative;
+}
+
+
+section.person article.container {
+    height: 100%;
+    min-height: 100%;
+}
+
+section.person div.person-description {
+    width:      500px;
+    padding:    20px;
+}
+
+section.person div.person-description header {
+    margin-top: 60px;
+    width: 100%;
+    height: 150px;
+}
+
+section.person div.person-description header div.headlines {
+    float: left;
+    width: 48%;
+    padding: 13px 0;
+}
+
+section.person div.person-description header div.headlines h1 {
+    display: block;
+    float: left;
+    color: #fff;
+    font-family: 'HelveticaNeueW01-77BdCn 692722';
+    letter-spacing: -2px;
+    text-transform: uppercase;
+    font-size: 2.6em;
+    width: 90%;
+    margin-right: 15px;
+    word-wrap: break-word;
+}
+
+section.person div.person-description header div.headlines h1.smaller-font {
+    font-size: 2.05em;
+}
+
+section.person div.person-description article.person-details {
+    float: left;
+    width: 47%;
+    margin: 10px 0;
+    border-left: 1px solid #ABA487;
+    padding-left: 15px;
+}
+
+section.person div.person-description article.person-details h3,
+section.person div.person-description article.person-details h3.yellowish {
+    color:      #fff!important;
+    word-wrap:  break-word;
+    margin:     6px 0;
+    font-size:  1em;
+}
+
+
+section.person div.person-description article.person-details h3 a {
+    color: #fff;
+}
+
+section.person div.person-description-text {
+    width:      95%;
+    position:   relative;
+    color: #fff;
+}
+
+section.person div.person-description-text p {
+    font-family: 'HelveticaNeueW01-55Roma';
+    font-size : 0.8125em;
+}
+
+section.person div.person-description-text a.read-more {
+    float: right;
+    color: #fff;
+}
+
+div.clear {
+    clear:both;
+}
+
+div.person-header {
+    padding: 15px 0;
+}
+
+div.person-header h2 {
+    color: #b5af95;
+    font-family: 'HelveticaNeueW01-77BdCn 692722';
+    letter-spacing: -2px;
+    text-transform: uppercase;
+    font-size: 2.6em;
+    font-weight: 400;
+}
+/* End person */
+
+/**
+ * First (quote) article has no headline, except for non-css enabled browsers
+ */
+
+
+/* fix to hide .ie7_anon in ie7. (displays text none ) */
+section#quote .ie7_anon {
+    display: none;
+}
+
+section#quote {
+    position:         absolute;
+    top:              390px;
+    z-index:          100;
+    background-image: url('/images/transparent-black70.png');
+}
+
+section#quote article {
+    overflow: hidden;
+}
+
+section#quote p {
+    color:       #fff;
+    width:       435px;
+    line-height: 1.4em;
+    margin-top:  0;
+}
+
+section#quote p.left {
+    float:        left;
+    padding-left: 60px;
+    margin-top:   2em;
+    font-size:    12px;
+}
+
+section#quote span.right {
+    float:        right;
+    margin-top:   5px;
+    margin-right: 10px;
+}
+
+section#quote article header {
+    display: none;
+}
+
+section#quote blockquote {
+    width: 878px;
+}
+
+section#quote blockquote div.quote-container {
+    width:    760px;
+    margin:   0 auto;
+    overflow: hidden;
+}
+
+blockquote div.quote-container img {
+}
+
+
+/**
+ * Text/headline font sizes and styles
+ */
+article h2,
+article h3,
+article a {
+    text-transform:  uppercase;
+    color:           white;
+
+    -webkit-font-smoothing: antialiased;
+}
+
+article h2, h3 {
+    font-family: 'HelveticaNeueW01-77BdCn 692722';
+    font-weight: normal;
+}
+
+section.index article h2 {
+    display:    inline-block;
+    font-size:  1.85em;
+    height:     28px;
+    margin-top: 25px;
+}
+
+section.index article h3 {
+    font-size: 0.875em;
+}
+
+article a:hover {
+    text-decoration: underline;
+}
+
+article a {
+    font-family:     'HelveticaNeueW01-77BdCn 692722';
+    display:         inline-block;
+    font-size:       0.875em;
+    color:           #b5af95;
+    text-decoration: none;
+}
+
+
+
+article span.right-arrow.white {
+    background-position: 0 -19px;
+}
+
+article span.left-arrow.white {
+    background-position: 0 0;
+}
+
+/**
+ * Index
+ */
+section#top {
+
+}
+
+
+/**
+ * About-company / newsletter / wanted
+ */
+section#about-company {
+}
+
+section#about-company article {
+}
+
+section#about-company article div.container,
+section#newsletter    article div.container,
+section#wanted        article div.container {
+    position:   relative;
+    z-index:    100;
+    width:      180px;
+    height:     327px;
+    padding:    0 20px;
+    background: url('/images/transparent-black70.png');
+}
+
+section#about-company article header {
+}
+
+section#about-company article header h2,
+section#newsletter    article header h2,
+section#wanted        article header h2 {
+    margin-top: 65px;
+    font-size:  20px;
+}
+
+
+
+section#about-company article p,
+section#newsletter    article p,
+section#wanted        article p {
+    margin-top: 0;
+    font-size:  0.8em;
+    color:      #fff;
+    text-align: justify;
+    height:     138px;
+}
+
+
+
+.object-info a.more.bid-open {
+    color: #5e710c;
+}
+
+/**
+ * Energy declaration
+ */
+
+
+.energy-class.energy-class-A { background-position:   0   -256px; }
+.energy-class.energy-class-B { background-position: -16px -256px; }
+.energy-class.energy-class-C { background-position: -32px -256px; }
+.energy-class.energy-class-D { background-position: -48px -256px; }
+.energy-class.energy-class-E { background-position: -64px -256px; }
+.energy-class.energy-class-F { background-position: -80px -256px; }
+.energy-class.energy-class-G { background-position: -96px -256px; }
+
+/**
+ * Promoted objects
+ */
+section#promoted {
+    background-color: white;
+}
+
+section#promoted article header {
+    margin-bottom: 15px;
+}
+
+section#promoted article h2 {
+    margin-top: 12px;
+    color:      #B5AF95;
+    font-size:  3em;
+}
+
+section#promoted article .object-row {
+    margin-bottom: 15px;
+}
+
+section#promoted article .object-row:last-child {
+    margin-bottom: 0;
+}
+
+section#promoted .object {
+    width:      430px;
+    float:      left;
+}
+
+section#promoted .object .image {
+    position: relative; /* To allow for bottom-aligned content */
+}
+
+section#promoted .object-row.top-row .image {
+    height:   245px; /* Top row are higher ... */
+}
+
+section#promoted .object-row.bottom-row .image {
+    height:   245px; /* No, not anymore I say! */
+}
+
+section#promoted .object .content {
+    position:       absolute;
+    bottom:         0;
+    background:     url('/images/transparent-black70.png');
+    height:         245px;
+    width:          150px;
+    padding:        0 20px;
+}
+
+section#promoted .object .content h3 {
+    width:          150px;
+    margin-top:     90px;
+    margin-bottom:  10px
+}
+
+section#promoted .object h3 a {
+    color: white;
+}
+
+section#promoted article .object-row.top-row    .object.left .content,
+section#promoted article .object-row.bottom-row .object.right  .content {
+    left: 55.8%; /* To the left of the image */
+}
+
+section#promoted article .object-row.top-row    .object.right .content,
+section#promoted article .object-row.bottom-row .object.left  .content {
+    right: 55.8%; /* To the left of the image */
+}
+
+section#promoted article .object.left {
+    margin-right: 15px;
+}
+
+article.promoted .object p {
+    font-size:   0.75em;
+    line-height: 1.4em;
+    color:       #fff;
+    font-family: "HelveticaNeueW01-77BdCn 692722";
+}
+
+
+section#promoted article .object-row.top-row    .object.right h3,
+section#promoted article .object-row.bottom-row .object.left h3,
+section#promoted article .object-row.top-row    .object.right p,
+section#promoted article .object-row.bottom-row .object.left p {
+    text-align: right;
+}
+
+
+/* Speciale for the bottom-row-arrows.*/
+.bottom-row .object.left .left-arrow {
+    float:               right;
+    margin-top:          3px;
+    margin-left:         5px;
+    background-position: 0 -19px;
+}
+
+.bottom-row .object.right .right-arrow {
+    float:               left;
+    margin-top:          3px;
+    margin-right:        5px;
+    background-position: 0 0;
+}
+/**
+ * Global player
+ */
+
+
+section#global article header h2 {
+    color: #B5AF95;
+    margin-top: 0;
+    font-size: 3em;
+}
+
+section#global article .container p {
+    width: 600px;
+    line-height: 1.4em;
+    font-size: 0.9em;
+}
+
+/**
+ * news / wanted
+ */
+section.news,
+section.wanted {
+    overflow:      hidden;
+    margin-bottom: 30px;
+}
+
+section.news   article header:first-child h1,
+section.wanted article header:first-child h1 {
+    color:          #333;
+    font-family:    'HelveticaNeueW01-77BdCn 692722';
+    text-transform: uppercase;
+    font-size:      3.08em;
+    letter-spacing: -2px;
+    border-bottom: 1px solid rgba(51, 51, 51, 0.5);
+    padding-bottom: 10px;
+}
+
+section.news   article header:first-child,
+section.wanted article header:first-child {
+    margin-bottom: 15px;
+}
+
+section.news     article div.column,
+section.wanted   article div.column,
+section.partners article div.column{
+    margin-right: 43px;
+}
+
+
+section.news     article div.column.no-margin-right,
+section.wanted   article div.column.no-margin-right,
+section.partners article div.column.no-margin-right{
+    margin-right: 0;
+}
+
+section.news     article div.column img:first-child,
+section.wanted   article div.column img:first-child,
+section.partners article div.column img:first-child {
+    width: 265px;
+    height: 190px;
+
+}
+
+section.partners article div.column img.logotype {
+    width:          265px;
+    height:         auto;
+    border-bottom:  1px dotted #AFA98E;
+    padding-top:    5px;
+    padding-bottom: 4px;
+}
+
+section.news     article div.column h2,
+section.wanted   article div.column h2,
+section.partners article div.column h2{
+    color: #333;
+    padding: 10px 6px;
+    border-bottom: 1px dotted #afa98e;
+}
+
+section.partners article div.column h2{
+    color: #333;
+    border-bottom: 1px dotted #afa98e;
+    padding: 4px 0;
+}
+
+section.news     article div.column p,
+section.wanted   article div.column p,
+section.partners article div.column p {
+    min-height: 58px;
+    font-size:  0.8125em;
+    width: 245px;
+    font-family: 'HelveticaNeueW01-55Roma';
+    line-height: 20px;
+}
+
+section.news     article span.dotted-border,
+section.wanted   article span.dotted-border,
+section.partners article span.dotted-border {
+    position: relative;
+    display:  block;
+    border-bottom: 1px dotted #afa98e;
+}
+
+section.news     article span.dotted-border a.read-more,
+section.wanted   article span.dotted-border a.read-more,
+section.partners article span.dotted-border a.read-more{
+    position:   absolute;
+    top:        -7px;
+    right:      20px;
+    background: #F8F8F8;
+    padding:    0 10px;
+    color:      #333;
+}
+
+/* end news / wanted */
+
+h1 {
+    -webkit-font-smoothing: antialiased;
+    font-weight:normal!important;
+    font-family: 'HelveticaNeueW01-77BdCn 692722';
+}
+
+/**
+ * Footer
+ */
+footer {
+    background: none;
+    margin-bottom: 40px;
+}
+
+footer#bottom {
+    position:       relative;
+    padding:        25px 45px 45px;
+}
+
+
+
+footer#bottom nav {
+    width:      860px;
+    overflow:   hidden;
+}
+
+footer#bottom ul,
+footer#bottom div.search-form {
+    height: 100%;
+}
+
+
+footer#bottom nav ul {
+    border-right:   1px solid rgba(153, 153, 153, 0.7);
+    min-width:      115px;
+    min-height:     123px;
+    color:          #888;
+    font-family:    'HelveticaNeueW01-55Roma';
+}
+
+footer#bottom.white nav ul {
+    border-right: 1px solid #fff;
+}
+
+footer#bottom.white nav ul.third {
+    border-right: 1px solid #fff;
+}
+
+footer#bottom nav ul.first li {
+    margin-left: 0;
+}
+
+footer#bottom nav ul.third {
+    border: 0;
+}
+
+footer#bottom nav ul li {
+    margin-left:    25px;
+    margin-right:   25px;
+    line-height:    1.6em;
+    font-size:      0.8em;
+    color:          #757575;
+}
+
+footer#bottom nav ul li a {
+    text-decoration:    none;
+    text-transform:     uppercase;
+    font-family:        'HelveticaNeueW01-77BdCn 692722';
+}
+
+footer#bottom nav ul.first li a {
+    color:              #858585;
+}
+
+footer#bottom nav ul.second li a {
+    color: #757575;
+}
+
+footer#bottom nav ul.third {
+    width: 380px;
+    border-right: 1px solid rgba(153, 153, 153, 0.7);
+}
+
+footer#bottom nav ul.third li {
+    font-size: 0.9em;
+}
+
+/* footer search-form */
+footer#bottom div.search-form {
+    float:              right;
+    width:              225px;
+}
+
+footer#bottom div.search-form h3 {
+    text-transform: uppercase;
+    color:          #3e3e3f;
+    font-size:      0.9em;
+    margin-bottom:  12px;
+}
+
+footer#bottom div.search-form fieldset {
+    width: 100%;
+}
+
+footer#bottom div.search-form .hidden {
+    display: none;
+}
+
+footer#bottom div.search-form fieldset label {
+    display:        block;
+    text-transform: uppercase;
+    margin-bottom:  6px;
+    font-size:      0.7em;
+    font-family:    'HelveticaNeueW01-77BdCn 692722';
+}
+
+footer#bottom div.search-form fieldset label.first-label {
+    display:    inline-block;
+    width:      46%;
+}
+
+footer#bottom div.search-form fieldset label.second-label{
+    display: inline-block;
+    margin-left: 8px;
+    width: 40%;
+}
+
+footer#bottom div.search-form fieldset label .float-left {
+    display: inline-block;
+    float: left;
+}
+
+
+footer#bottom div.search-form fieldset select {
+    color: #555555;
+    font-size: 0.8em;
+    margin-bottom: 10px;
+    padding: 5px;
+    width: 49%;
+}
+
+footer#bottom div.search-form fieldset select.last {
+}
+
+footer#bottom div.search-form fieldset select.full-width {
+    width: 100%;
+}
+
+footer#bottom div.search-form input.submit-button {
+    border:         0;
+    background:     none;
+    float:          right;
+    font-family:    "HelveticaNeueW01-77BdCn 692722";
+    text-transform: uppercase;
+}
+
+footer#bottom div.search-form input.submit-button:hover {
+    cursor: pointer;
+}
+
+footer.white div.search-form input.submit-button {
+    color: #fff;
+}
+
+
+/**
+ * Clearfix replacement
+ *
+ * http://nicolasgallagher.com/micro-clearfix-hack/
+ */
+
+/* For modern browsers */
+.container:before,
+.container:after {
+    content: "";
+    display: table;
+}
+
+.container:after {
+    clear: both;
+}
+
+
+/* overlay */
+#overlay {
+    position:       fixed;
+    top:            0;
+    left:           0;
+    z-index:        8888;
+    width:          100%;
+
+    height:         100%;
+    display:        none;
+    background:     #000;
+    opacity:        0.5;
+}
+
+
+div.overlay-container {
+    position:       absolute;
+    z-index:        9999;
+
+    display:       none;
+    left:           50%;
+    top:            50%;
+    height:         208px;
+    width:          355px;
+    margin:         -104px 0 0 -177px;
+}
+
+div.overlay-content {
+    position:       absolute;
+    background:     #fff;
+    width:          355px;
+    margin:         0 auto;
+    padding:        30px 40px;
+    overflow:       hidden;
+    color:          #666666;
+    -webkit-border-radius:  4px;
+    -moz-border-radius:     4px;
+    border-radius:          4px;
+    box-shadow:     0 0 25px #333;
+
+}
+
+div.overlay-content header {
+    overflow:       hidden;
+}
+
+div.overlay-content header h2 {
+    width:          97%;
+    color:          #000000;
+    font-size:      18px;
+    line-height:    21px;
+}
+
+div.overlay-content .close {
+    width:          5px;
+    float: right;
+    text-align:     right;
+    line-height:    1em;
+    vertical-align: middle;
+    cursor:         pointer;
+}
+
+.overlay-content label {
+    display:        block;
+    margin-top:     14px;
+}
+
+.overlay-content input {
+    display:        block;
+    border-radius:  2px;
+    border:         1px solid #C4CAC4;
+    padding:        6px 5px;
+    margin:         2px 0;
+    width:          344px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1) inset;
+}
+
+.overlay-content .submit-holder {
+    margin-top:     30px;
+    width:          335px;
+    overflow:       hidden;
+}
+
+div.submit {
+}
+.overlay-content #login-submit {
+    margin-top:     20px;
+    color:          #000;
+    font-weight:    800;
+    width:          auto;
+
+    padding:        10px 36px;
+    -webkit-border-radius:  4px;
+    -moz-border-radius:     4px;
+    border-radius:          4px;
+}
+
+
+.overlay-content .error {
+    color: #D8000C;
+    margin: 10px 0 20px 0;
+}
+
+.error p {
+    margin-bottom:  0;
+}
+
+.overlay-content #login-submit:hover {
+    box-shadow:     0 0 2px #aaa;
+    cursor:         pointer;
+
+
+}
+
+.submit-holder .right {
+    line-height:    45px;
+}
+/* end overlay */
+
+/* #map */
+#map {
+    width:  890px;
+    height: 325px;
+}
+/* end #map*/
+
+/* Debugging */
+fieldset.debug-info *:not(h3) {
+    font-family: monospace;
+}
+
+fieldset.debug-info {
+    padding: 0.5em 1em 1em;
+    margin-bottom: 2em;
+}
+
+fieldset.debug-info,
+fieldset.debug-info legend {
+    background: #f7f7f7;
+    border: 1px solid #888;
+}
+
+fieldset.debug-info legend {
+    background: #e7e7e7;
+    font-weight: bold;
+    padding: 0.25em 0.75em;
+}
+
+fieldset.debug-info h3 {
+    color: #4169e1;
+    margin: 1em 0 0.5em;
+    text-transform: uppercase;
+}
+
+
+/* Fake image holder.*/
+div.fake-image-holder {
+    width: 878px;
+    height: 327px;
+    background: #eee;
+}
+
+
+/*
+ * Helper classes.
+ * These classes are very generic, and the name of the classes
+ * truly should indicate what kind of properties the class adds.
+ */
+
+.yellowish {
+    color: #ABA487!important;
+}
+
+.quote-char {
+    font-size:  3.33em;
+    display:    inline-block;
+    margin-top: 0.2em;
+}
+
+.hidden {
+    display: none;
+}
+
+.float-left {
+    float: left;
+}
+
+.float-right {
+    float: right;
+}
+
+.margin-top-40 {
+    margin-top: 40px;
+}
+
+.border-white {
+    border-top-color:rgba(255, 255, 255, 0.498039);
+    border-top-style:solid;
+    border-top-width:1px;
+    display:block;
+    width:100%;
+}
+
+.margin-bottom-30 {
+    margin-bottom: 10px;
+}
+
+div.container.left {
+    left: 52px;
+}
+
+div.container.right {
+    left: 596px;
+}
+
+.greenish {
+    color:          #b5af95!important;
+}
+
+.green-dotted-border {
+    border-top: 1px dotted #b5af95;
+}
+
+.green-dotted-border-both {
+    border-top: 1px dotted #b5af95;
+    border-bottom: 1px dotted #b5af95;
+}
+.green-dotted-border-bottom {
+    border-bottom: 1px dotted #b5af95;
+}
+
+.green-dotted-border-top {
+    border-top: 1px dotted #b5af95;
+}
+
+.width-25 {
+    width: 25%;
+}
+
+.width-33 {
+    width: 31.5%;
+}
+
+.width-30 {
+    width: 30%;
+}
+
+.width-50 {
+    width: 50%;
+}
+
+.width-75 {
+    width: 75%;
+}
+
+.width-full {
+    width: 100%;
+}
+
+.display-none {
+    display: none;
+}
+
+.display-none p:first-child {
+    margin-top: 0;
+}
+
+.spacing {
+    height: 10px;
+}
+
+.object:hover {
+    cursor: pointer;
+}
+
+article[data-sold="1"].object:hover,
+article[data-reserved="1"].object:hover,
+article[data-off-market="1"].object:hover{
+    cursor: default;
+}
+
+/* end Helper classes. */
+
+/**
+ * When using jquery.dialog on a page that has a google maps view
+ * the dialog doesnt appear as it should, therefor we have to
+ * force 3d acceleration for the dialog to show..
+ *
+ * @see: http://stackoverflow.com/questions/16510196/jquery-ui-dialog-not-working-with-gmap-in-ipad
+ */
+.ui-dialog * {
+    -webkit-transform: translate3d(0, 0, 0);
+}
+
+
+.margin-top-15 {
+    margin-top: 15px;
+}
+
+.padding-0 {
+    padding: 0!important;
+}
+
+.margin-0 {
+    margin: 0!important;
+}
+
+.padding-bottom-30 {
+    padding-bottom: 30px;
+}
+
+.position-relative {
+    position: relative;
+}
+
+a.email {
+    text-transform: uppercase;
+    display: inline;
+    font-family: 'HelveticaNeueW01-55Roma'!important;
+    font-size: 1em;
+}
+
+a.mailto-person {
+    text-transform: none;
+    display: inline;
+    font-family: 'HelveticaNeueW01-55Roma'!important;
+}
+
+a.mailto-person.black {
+    color: #000;
+    font-weight: bold;
+}
+
+
+
+.ui-dialog-titlebar {
+    background: none;
+    border: none;
+}
+
+footer#bottom.white nav ul.first li a {
+    color: #fff;
+}
+
+footer#bottom.white nav ul.second li a,
+footer#bottom.white nav ul li,
+footer#bottom.white nav ul,
+footer#bottom.white div.search-form fieldset label,
+footer#bottom.white div.search-form h3 {
+    color: #fff;
+}
+
+.gray {
+    color: #57585A;
+}
+
+.margin-top-5 {
+    margin-top: 5px!important;
+}
+
+div.clear.no-margin-bottom {
+    margin-bottom: 0!important;
+}
+
+span.wbr {
+    width:   0;
+    display: inline-block;
+}
+
+.ui-widget {
+    font-family: 'HelveticaNeueW01-55Roma'!important;
+}
