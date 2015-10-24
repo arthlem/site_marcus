@@ -515,7 +515,7 @@ section.objects article aside.object-info {
     position:       absolute;
     z-index:        100;
     padding:        0 20px;
-    background:     url('./images/transparent-black70.png');
+    background: url('../images/transparent-black70.png');
     top:            0;
     width:          160px;
     height:         325px;
